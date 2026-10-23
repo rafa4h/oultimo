@@ -11,6 +11,10 @@
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+    border: solid rgb(0, 0, 0) 4px ;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255); padding: 5px;
+
 }
 
 img{
@@ -24,6 +28,13 @@ img{
     transform: scale(1.5);
 }
 
+h1{
+    text-align: center;
+    border: solid rgb(0, 0, 0) 4px ;
+    border-radius: 20px;
+    background-color: rgb(233, 231, 231); padding: 10px;
+}
+
 h2{
     width: 400px;
 
@@ -31,4 +42,28 @@ h2{
 
 p{
     width: 400px;
+}
+
+body{
+    background-color: #00b7ff;
+}
+
+.botao {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #f3e2e2;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+.container-botao {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
 }
