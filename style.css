@@ -53,7 +53,7 @@ p{
 }
 
 body{
-    background-image:url(\https://blog.cassol.com.br/wp-conte);
+    background-image:url(https://images.tcdn.com.br/img/img_prod/1210334/textura_cimento_queimado_ibratin_cor_prata_1_20260219085907_745ef56bd94b.jpg);
     text-align: center;
     width: 100%;
     display: flex;
@@ -90,6 +90,22 @@ footer{
         flex-wrap: wrap;
         flex-direction: row;
         width: 50%;
-    }   
-} 
+    } 
+}
+
+.secao-metas, .perfil, .texto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    flex-direction: row;
+}
+
+.texto-perfil{
+    flex-direction: column;
+}
+    
+
     
